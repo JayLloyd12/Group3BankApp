@@ -30,6 +30,7 @@ public class CreateAccount {
 	private static String balanceValue;
 	
 	public static void main(String[] args) {
+	        DataManagement.CreateArrayList();
 		account = new AccountDetails();
 		accountList = DataManagement.accounts;
 		CreateNewAccount();
